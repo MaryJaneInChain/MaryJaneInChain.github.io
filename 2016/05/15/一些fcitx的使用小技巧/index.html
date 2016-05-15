@@ -5,20 +5,26 @@
   
   <title>一些fcitx的使用小技巧 | We Choose The Moon</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="使用快速输入功能输入常用短语、颜文字在拼音状态下输入全角的 ； 分号，就能够触发快速输入功能。
-例如输入 ；smile 就可以很快地打出(・∀・)这个颜文字，但是fcitx自带的预设词条太有限了。这时我们可以到 /usr/share/fcitx/data/quickphrase.d 或 ~/.local/share/fcitx/data/quickphrase.d 目录下，将这里的内容复制到已有">
+  <meta name="description" content="Fcitx是一个在X Window中使用的输入法框架，在源码包内包含了拼音，五笔字型以及区位、二笔的支持。可以输入UTF-8编码中的文字。可以在Linux、FreeBSD中运行。采用GPL授权。支持XIM、GTK（版本2和3）和QT的输入法模块。
+
+使用快速输入功能输入常用短语、颜文字在拼音状态下输入全角的 ； 分号，就能够触发快速输入功能。
+例如输入 ；smile 就可以很快地打出(・∀・)">
 <meta property="og:type" content="article">
 <meta property="og:title" content="一些fcitx的使用小技巧">
 <meta property="og:url" content="http://maryjaneinchain.github.io/2016/05/15/一些fcitx的使用小技巧/index.html">
 <meta property="og:site_name" content="We Choose The Moon">
-<meta property="og:description" content="使用快速输入功能输入常用短语、颜文字在拼音状态下输入全角的 ； 分号，就能够触发快速输入功能。
-例如输入 ；smile 就可以很快地打出(・∀・)这个颜文字，但是fcitx自带的预设词条太有限了。这时我们可以到 /usr/share/fcitx/data/quickphrase.d 或 ~/.local/share/fcitx/data/quickphrase.d 目录下，将这里的内容复制到已有">
+<meta property="og:description" content="Fcitx是一个在X Window中使用的输入法框架，在源码包内包含了拼音，五笔字型以及区位、二笔的支持。可以输入UTF-8编码中的文字。可以在Linux、FreeBSD中运行。采用GPL授权。支持XIM、GTK（版本2和3）和QT的输入法模块。
+
+使用快速输入功能输入常用短语、颜文字在拼音状态下输入全角的 ； 分号，就能够触发快速输入功能。
+例如输入 ；smile 就可以很快地打出(・∀・)">
 <meta property="og:image" content="https://avatars0.githubusercontent.com/u/485062?v=3&s=200">
-<meta property="og:updated_time" content="2016-05-15T16:25:31.149Z">
+<meta property="og:updated_time" content="2016-05-15T16:38:03.002Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="一些fcitx的使用小技巧">
-<meta name="twitter:description" content="使用快速输入功能输入常用短语、颜文字在拼音状态下输入全角的 ； 分号，就能够触发快速输入功能。
-例如输入 ；smile 就可以很快地打出(・∀・)这个颜文字，但是fcitx自带的预设词条太有限了。这时我们可以到 /usr/share/fcitx/data/quickphrase.d 或 ~/.local/share/fcitx/data/quickphrase.d 目录下，将这里的内容复制到已有">
+<meta name="twitter:description" content="Fcitx是一个在X Window中使用的输入法框架，在源码包内包含了拼音，五笔字型以及区位、二笔的支持。可以输入UTF-8编码中的文字。可以在Linux、FreeBSD中运行。采用GPL授权。支持XIM、GTK（版本2和3）和QT的输入法模块。
+
+使用快速输入功能输入常用短语、颜文字在拼音状态下输入全角的 ； 分号，就能够触发快速输入功能。
+例如输入 ；smile 就可以很快地打出(・∀・)">
 <meta name="twitter:image" content="https://avatars0.githubusercontent.com/u/485062?v=3&s=200">
   
     <link rel="alternate" href="/atom.xml" title="We Choose The Moon" type="application/atom+xml">
@@ -99,6 +105,9 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p><img src="https://avatars0.githubusercontent.com/u/485062?v=3&amp;s=200" alt="小企鹅输入法" title="fcitx - 小企鹅输入法"></p>
+<blockquote>
+<p>Fcitx是一个在X Window中使用的输入法框架，在源码包内包含了拼音，五笔字型以及区位、二笔的支持。可以输入UTF-8编码中的文字。可以在Linux、FreeBSD中运行。采用GPL授权。支持XIM、GTK（版本2和3）和QT的输入法模块。</p>
+</blockquote>
 <h2 id="使用快速输入功能输入常用短语、颜文字"><a href="#使用快速输入功能输入常用短语、颜文字" class="headerlink" title="使用快速输入功能输入常用短语、颜文字"></a>使用快速输入功能输入常用短语、颜文字</h2><p>在拼音状态下输入全角的 <code>；</code> 分号，就能够触发快速输入功能。</p>
 <p>例如输入 <code>；smile</code> 就可以很快地打出(・∀・)这个颜文字，但是fcitx自带的预设词条太有限了。这时我们可以到 <code>/usr/share/fcitx/data/quickphrase.d</code> 或 <code>~/.local/share/fcitx/data/quickphrase.d</code> 目录下，将<a href="https://fcitx-im.org/wiki/QuickPhrase_Emoji" target="_blank" rel="external">这里</a>的内容复制到已有的或新建的mb文件里，比如我就把所有内容复制到了 <code>emoji.mb</code> 里面。当然你也完全可以自己定义专属的快速输入。</p>
 <p>现在让我们重启一下fcitx，就可以方便地利用快速输入功能输入颜文字啦。</p>
@@ -111,7 +120,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://maryjaneinchain.github.io/2016/05/15/一些fcitx的使用小技巧/" data-id="cio8srdb100005ys6r7pmaxx8" class="article-share-link">Share</a>
+      <a data-url="http://maryjaneinchain.github.io/2016/05/15/一些fcitx的使用小技巧/" data-id="cio8t3o8m0000bis6fn736m6l" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Vim/">Vim</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/fcitx/">fcitx</a></li></ul>
