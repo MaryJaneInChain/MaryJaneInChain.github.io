@@ -14,7 +14,7 @@
 <meta property="og:description" content="使用快速输入功能输入常用短语、颜文字在拼音状态下输入全角的 ； 分号，就能够触发快速输入功能。
 例如输入 ；smile 就可以很快地打出(・∀・)这个颜文字，但是fcitx自带的预设词条太有限了。这时我们可以到 /usr/share/fcitx/data/quickphrase.d 或 ~/.local/share/fcitx/data/quickphrase.d 目录下，将这里的内容复制到已有">
 <meta property="og:image" content="https://avatars0.githubusercontent.com/u/485062?v=3&s=200">
-<meta property="og:updated_time" content="2016-05-15T08:59:17.822Z">
+<meta property="og:updated_time" content="2016-05-15T16:25:31.149Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="一些fcitx的使用小技巧">
 <meta name="twitter:description" content="使用快速输入功能输入常用短语、颜文字在拼音状态下输入全角的 ； 分号，就能够触发快速输入功能。
@@ -102,12 +102,16 @@
 <h2 id="使用快速输入功能输入常用短语、颜文字"><a href="#使用快速输入功能输入常用短语、颜文字" class="headerlink" title="使用快速输入功能输入常用短语、颜文字"></a>使用快速输入功能输入常用短语、颜文字</h2><p>在拼音状态下输入全角的 <code>；</code> 分号，就能够触发快速输入功能。</p>
 <p>例如输入 <code>；smile</code> 就可以很快地打出(・∀・)这个颜文字，但是fcitx自带的预设词条太有限了。这时我们可以到 <code>/usr/share/fcitx/data/quickphrase.d</code> 或 <code>~/.local/share/fcitx/data/quickphrase.d</code> 目录下，将<a href="https://fcitx-im.org/wiki/QuickPhrase_Emoji" target="_blank" rel="external">这里</a>的内容复制到已有的或新建的mb文件里，比如我就把所有内容复制到了 <code>emoji.mb</code> 里面。当然你也完全可以自己定义专属的快速输入。</p>
 <p>现在让我们重启一下fcitx，就可以方便地利用快速输入功能输入颜文字啦。</p>
-<h2 id="使用快捷键搜索Unicode字符"><a href="#使用快捷键搜索Unicode字符" class="headerlink" title="使用快捷键搜索Unicode字符"></a>使用快捷键搜索Unicode字符</h2><p>待补完……</p>
+<h2 id="使用快捷键搜索Unicode字符"><a href="#使用快捷键搜索Unicode字符" class="headerlink" title="使用快捷键搜索Unicode字符"></a>使用快捷键搜索Unicode字符</h2><p>同时按下 <code>Shift + Ctrl + Alt + U</code> 键，就可以输入关键词对unicode字符进行搜索。</p>
+<p>在<strong>Arch Linux</strong>系统下运行以下命令安装包含emoji字符的码表：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo pacman -S fcitx-table-other</span><br></pre></td></tr></table></figure></p>
+<p>码表安装完成后，我们就可以通过搜索关键词打出🌞🌚这样的emoji了。<br>例如：按下 <code>Shift + Ctrl + Alt + U</code> 后，输入 <code>face with tears of joy</code>，就可以打出😂这个字符了。</p>
+<p>用这种方法还可以找出很多稀奇⚣古怪的好玩字符哦。</p>
+<h2 id="使fcitx在Vim中退出插入模式时自动切换回英文输入"><a href="#使fcitx在Vim中退出插入模式时自动切换回英文输入" class="headerlink" title="使fcitx在Vim中退出插入模式时自动切换回英文输入"></a>使fcitx在Vim中退出插入模式时自动切换回英文输入</h2><p>安装<a href="https://github.com/vim-scripts/fcitx.vim" target="_blank" rel="external">fcitx.vim</a>这个Vim插件。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://maryjaneinchain.github.io/2016/05/15/一些fcitx的使用小技巧/" data-id="cio8cokut0000r4s6301qc9be" class="article-share-link">Share</a>
+      <a data-url="http://maryjaneinchain.github.io/2016/05/15/一些fcitx的使用小技巧/" data-id="cio8smoex00003ks6ov5gg3f5" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Vim/">Vim</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/fcitx/">fcitx</a></li></ul>
