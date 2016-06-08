@@ -439,6 +439,9 @@ body {
   float: right;
   margin-right: -15px;
 }
+#nav-weibo-link:before {
+  content: "\f18a";
+}
 #nav-rss-link:before {
   content: "\f09e";
 }
