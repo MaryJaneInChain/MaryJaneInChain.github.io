@@ -445,6 +445,9 @@ body {
 #nav-facebook-link:before {
   content: "\f082";
 }
+#nav-github-link:before {
+  content: "\f09b";
+}
 #nav-rss-link:before {
   content: "\f09e";
 }
