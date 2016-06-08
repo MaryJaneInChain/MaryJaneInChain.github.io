@@ -319,6 +319,7 @@ body {
   height: 400px;
   position: relative;
   border-bottom: 1px solid #ddd;
+  font-family: "Walkway", Arial, san-serif;
 }
 #header:before,
 #header:after {
@@ -375,13 +376,12 @@ body {
   text-decoration: none;
   color: #fff;
   font-weight: 300;
-  text-shadow: 3px 3px 1px rgba(0,0,0,0.8);
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
 }
 #logo {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: 2px;
-  font-family: "Walkway", Arial, san-serif;
 }
 #subtitle {
   font-size: 16px;
