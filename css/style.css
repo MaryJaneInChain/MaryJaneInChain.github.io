@@ -117,6 +117,13 @@ button::-moz-focus-inner {
   src: url("fonts/fontawesome-webfont.eot?v=#4.0.3");
   src: url("fonts/fontawesome-webfont.eot?#iefix&v=#4.0.3") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff?v=#4.0.3") format("woff"), url("fonts/fontawesome-webfont.ttf?v=#4.0.3") format("truetype"), url("fonts/fontawesome-webfont.svg#fontawesomeregular?v=#4.0.3") format("svg");
 }
+@font-face {
+  font-family: Walkway;
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/walkway-webfont.eot?v=#");
+  src: url("fonts/walkway-webfont.woff?v=#") format("woff"), url("fonts/walkway-webfont.ttf?v=#") format("truetype"), url("fonts/walkway-webfont.svg?v=#") format("svg");
+}
 html,
 body,
 #container {
@@ -368,12 +375,13 @@ body {
   text-decoration: none;
   color: #fff;
   font-weight: 300;
-  text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 #logo {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: 2px;
+  font-familt: 'Waywalk', Arial, san-serif;
 }
 #subtitle {
   font-size: 16px;
