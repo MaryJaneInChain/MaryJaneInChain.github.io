@@ -121,8 +121,8 @@ button::-moz-focus-inner {
   font-family: Walkway;
   font-style: normal;
   font-weight: normal;
-  src: url("fonts/walkway-webfont.eot?v=#");
-  src: url("fonts/walkway-webfont.woff?v=#") format("woff"), url("fonts/walkway-webfont.ttf?v=#") format("truetype"), url("fonts/walkway-webfont.svg?v=#") format("svg");
+  src: url("fonts/walkway-webfont.eot");
+  src: url("fonts/walkway-webfont.woff") format("woff"), url("fonts/walkway-webfont.ttf") format("truetype"), url("fonts/walkway-webfont.svg") format("svg");
 }
 html,
 body,
