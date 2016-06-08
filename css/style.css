@@ -442,6 +442,9 @@ body {
 #nav-weibo-link:before {
   content: "\f18a";
 }
+#nav-facebook-link:before {
+  content: "\f082";
+}
 #nav-rss-link:before {
   content: "\f09e";
 }
