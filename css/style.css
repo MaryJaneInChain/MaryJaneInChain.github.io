@@ -118,7 +118,7 @@ button::-moz-focus-inner {
   src: url("fonts/fontawesome-webfont.eot?#iefix&v=#4.0.3") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff?v=#4.0.3") format("woff"), url("fonts/fontawesome-webfont.ttf?v=#4.0.3") format("truetype"), url("fonts/fontawesome-webfont.svg#fontawesomeregular?v=#4.0.3") format("svg");
 }
 @font-face {
-  font-family: 'Walkway';
+  font-family: Walkway;
   font-style: normal;
   font-weight: normal;
   src: url("fonts/walkway-webfont.eot?v=#");
