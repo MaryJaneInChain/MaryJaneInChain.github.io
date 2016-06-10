@@ -1397,8 +1397,7 @@ pre .javascript .function {
 }
 .profile img {
   width: 40%;
-}
-margin: 10px auto {
+  margin: 10px auto;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   display: block;
