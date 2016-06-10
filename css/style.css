@@ -1401,7 +1401,9 @@ pre .javascript .function {
   -webkit-border-radius: 50%;
   border-radius: 50%;
   display: block;
+  -webkit-box-shadow: 0 2px 2px #222;
+  box-shadow: 0 2px 2px #222;
 }
-box-shadow: 0 2px 2px #222 h3 {
+.profile h3 {
   text-align: center;
 }
