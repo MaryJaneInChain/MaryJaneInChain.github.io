@@ -1124,8 +1124,8 @@ a.article-title:hover {
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   overflow: auto;
   color: #ccc;
   line-height: 22.400000000000002px;
