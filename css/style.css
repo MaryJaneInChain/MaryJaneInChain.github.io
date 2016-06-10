@@ -1395,11 +1395,10 @@ pre .javascript .function {
   margin-right: 5px;
   display: inline-block;
 }
-.profile img {
+display: block {
   width: 40%;
 }
-display: block {
-  margin: 10px auto;
+margin: 10px auto {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
