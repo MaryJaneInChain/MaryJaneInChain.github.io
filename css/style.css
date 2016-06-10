@@ -395,7 +395,6 @@ body {
   float: left;
   margin-left: -15px;
 }
-font-size: 16px,
 .nav-icon,
 .main-nav-link {
   float: left;
@@ -410,12 +409,10 @@ font-size: 16px,
   display: block;
   padding: 20px 15px;
 }
-font-size: 16px:hover,
 .nav-icon:hover,
 .main-nav-link:hover {
   opacity: 1;
 }
-font-size: 16px,
 .nav-icon {
   font-family: FontAwesome;
   text-align: center;
