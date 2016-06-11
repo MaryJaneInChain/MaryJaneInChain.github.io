@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Theories of Flight</title>
+  <subtitle>飞行理论</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://maryjaneinchain.github.io/"/>
+  <updated>2016-06-07T19:41:29.389Z</updated>
+  <id>http://maryjaneinchain.github.io/</id>
+  
+  <author>
+    <name>MaryJaneInChain</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>言论自由之旗</title>
+    <link href="http://maryjaneinchain.github.io/2016/06/03/%E8%A8%80%E8%AE%BA%E8%87%AA%E7%94%B1%E4%B9%8B%E6%97%97/"/>
+    <id>http://maryjaneinchain.github.io/2016/06/03/言论自由之旗/</id>
+    <published>2016-06-03T15:30:30.000Z</published>
+    <updated>2016-06-07T19:41:29.389Z</updated>
+    
+    <content type="html">&lt;p&gt;日子快到了。&lt;/p&gt;
+&lt;p&gt;当年，HD DVD 密钥被泄漏了，随后就遭到的财团的施压，导致这个能破解拷贝 DVD&lt;br&gt;的密钥到处被封杀。于是，美国网民创作了一面“&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E8%A8%80%E8%AE%BA%E8%87%AA%E7%94%B1%E4%B9%8B%E6%97%97&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;言论自由之旗&lt;/a&gt;”，这面旗帜把遭到封杀的高清 DVD&lt;br&gt;密钥用旗帜上的颜色条表示了出来，从而绕过了审查。&lt;/p&gt;
+&lt;p&gt;而如今一到了&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E4%BA%92%E8%81%94%E7%BD%91%E7%BB%B4%E6%8A%A4%E6%97%A5&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;中国互联网维护日&lt;/a&gt;，各种形式的自我审查就会接踵而至。很明显，中国的网民也需要自己的言论自由之旗。受到美国网民的启发，我设计了“中国版言论自由之旗”，同样象征言论自由。这是一面纯色的旗帜，旗帜颜色的&lt;br&gt;HTML 编号为 &lt;code&gt;#890604&lt;/code&gt;。出乎意料很巧合的，这是一面暗红色的旗帜。在就连“蜡烛”图标都会遭到屏蔽的网络环境下，一种颜色就可以表达无声的抗议。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://biergaizi.info/wp-content/uploads/2016/06/redtestbar.gif&quot; alt=&quot;Chinese Free Speech Flag&quot;&gt;&lt;/p&gt;
+&lt;p&gt;本文章和这面旗帜均采用公有领域授权，尺寸比例是 2:3 或&lt;br&gt;3:5。请将本文转载到你的博客上；并将本旗帜和传播到社交网络的四面八方。没有任何文字说明，也不会遭到封杀，是蜡烛的绝佳替代品。同样，大家可以在任何艺术作品/设计中使用颜色&lt;br&gt;&lt;code&gt;#890604&lt;/code&gt;。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;日子快到了。&lt;/p&gt;
+&lt;p&gt;当年，HD DVD 密钥被泄漏了，随后就遭到的财团的施压，导致这个能破解拷贝 DVD&lt;br&gt;的密钥到处被封杀。于是，美国网民创作了一面“&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E8%A8%80%E8%AE%
+    
+    </summary>
+    
+      <category term="个人感想" scheme="http://maryjaneinchain.github.io/categories/%E4%B8%AA%E4%BA%BA%E6%84%9F%E6%83%B3/"/>
+    
+      <category term="政治" scheme="http://maryjaneinchain.github.io/categories/%E4%B8%AA%E4%BA%BA%E6%84%9F%E6%83%B3/%E6%94%BF%E6%B2%BB/"/>
+    
+    
+      <category term="个人感想" scheme="http://maryjaneinchain.github.io/tags/%E4%B8%AA%E4%BA%BA%E6%84%9F%E6%83%B3/"/>
+    
+      <category term="言论" scheme="http://maryjaneinchain.github.io/tags/%E8%A8%80%E8%AE%BA/"/>
+    
+      <category term="自由" scheme="http://maryjaneinchain.github.io/tags/%E8%87%AA%E7%94%B1/"/>
+    
+      <category term="blug" scheme="http://maryjaneinchain.github.io/tags/blug/"/>
+    
+      <category term="转载" scheme="http://maryjaneinchain.github.io/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Vundle管理你的Vim插件</title>
+    <link href="http://maryjaneinchain.github.io/2016/05/18/%E4%BD%BF%E7%94%A8Vundle%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84Vim%E6%8F%92%E4%BB%B6/"/>
+    <id>http://maryjaneinchain.github.io/2016/05/18/使用Vundle管理你的Vim插件/</id>
+    <published>2016-05-17T17:00:51.000Z</published>
+    <updated>2016-06-07T19:42:16.855Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/1/12/Vimlogo.png&quot; alt=&quot;Vim&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Vim是从vi发展出来的一个文本编辑器。代码补完、编译及错误跳转等方便编程的功能特别丰富，在程序员中被广泛使用。和Emacs并列成为类Unix系统用户最喜欢的编辑器。&lt;/p&gt;
+&lt;p&gt;Vim的第一个版本由布莱姆·米勒在1991年发布。最初的简称是Vi IMitation，随着功能的不断增加，正式名称改成了Vi IMproved。现在是在开放源代码方式下发行的自由软件。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Vim在Unix/Linux世界的风行不仅仅因为它本身的强大，更在于它拥有数量庞大的插件可供我们根据自己的需求定制最适合我们自己的文本编辑环境。但随着插件数量的增多，手动管理、更新各种插件就成了一桩麻烦事。&lt;/p&gt;
+&lt;p&gt;这时，我们就可以选择用&lt;a href=&quot;https://github.com/VundleVim/Vundle.vim&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Vundle&lt;/a&gt;来帮助我们管理Vim插件。&lt;/p&gt;
+&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;p&gt;安装&lt;strong&gt;Vundle&lt;/strong&gt;的其中一个方法是使用&lt;strong&gt;Git&lt;/strong&gt;从Github上把分支复制下来：&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git &lt;span class=&quot;built_in&quot;&gt;clone&lt;/span&gt; https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;完成安装后，Vundle会默认将所有的插件储存在 &lt;code&gt;~/.vim/bundle/Vundle.vim&lt;/code&gt; 中。&lt;/p&gt;
+&lt;p&gt;Vundle的搜索功能依赖于&lt;strong&gt;Curl&lt;/strong&gt;，所以最好确保你安装了它。&lt;/p&gt;
+&lt;h2 id=&quot;配置&quot;&gt;&lt;a href=&quot;#配置&quot; class=&quot;headerlink&quot; title=&quot;配置&quot;&gt;&lt;/a&gt;配置&lt;/h2&gt;&lt;p&gt;打开Vim的配置文件 &lt;code&gt;~/.vimrc&lt;/code&gt; 并在文件的最顶端加入以下内容：&lt;/p&gt;
+&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;set&lt;/span&gt; nocompatible              &lt;span class=&quot;string&quot;&gt;&quot; 取消一致性,必须&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;filetype off                  &quot;&lt;/span&gt; 必须&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&quot; 设置包括Vundle和初始化相关的运行时路径&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;set rtp+=~/.vim/bundle/Vundle.vim&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;call vundle#begin()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&quot;&lt;/span&gt; 必须包含这一行&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;Plugin&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&#39;VundleVim/Vundle.vim&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&quot; 安装插件的命令必须放置在 call vundle#begin() 和 call vundle#end之间。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&quot;&lt;/span&gt; 格式为 &lt;span class=&quot;keyword&quot;&gt;Plugin&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&#39;用户名/插件仓库名&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;Plugin&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&#39;jistr/vim-nerdtree-tabs&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&quot; 当用户名为 vim-scripts （即Vim的官方插件库）时，用户名可以省略&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Plugin &#39;httplog&#39;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&quot;&lt;/span&gt; 当插件来自不在Github上的Git仓库时，格式为 &lt;span class=&quot;keyword&quot;&gt;Plugin&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&#39;git地址&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;Plugin&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&#39;git://git.wincent.com/command-t.git&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&quot; 当插件位于仓库的子目录中时，可以在命令后面标注插件的路径&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Plugin &#39;rstacruz/sparkup&#39;, &amp;#123;&#39;rtp&#39;: &#39;vim/&#39;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&quot;&lt;/span&gt; 如果已经安装过同名的插件，可利用以下格式避免命名冲突&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;Plugin&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&#39;somebody/httplog&#39;&lt;/span&gt;, &amp;#123;&lt;span class=&quot;string&quot;&gt;&#39;name&#39;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&#39;newhttplog&#39;&lt;/span&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;call&lt;/span&gt; vundle#&lt;span class=&quot;keyword&quot;&gt;end&lt;/span&gt;()            &lt;span class=&quot;string&quot;&gt;&quot; 必须&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;filetype plugin indent on    &quot;&lt;/span&gt; 必须，加载vim自带和插件相应的语法和文件类型相关脚本&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&quot; 其他Vim配置语句&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;使用&quot;&gt;&lt;a href=&quot;#使用&quot; class=&quot;headerlink&quot; title=&quot;使用&quot;&gt;&lt;/a&gt;使用&lt;/h2&gt;&lt;p&gt;打开Vim后，可以输入以下命令：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:BundleList&lt;/code&gt;         列出所有已安装的插件&lt;br&gt;&lt;code&gt;:BundleInstall&lt;/code&gt;         安装（更新）插件&lt;br&gt;&lt;code&gt;:BundleSearch foo&lt;/code&gt;     在线搜索插件&lt;br&gt;&lt;code&gt;:BundleClean&lt;/code&gt;         清除不使用的插件&lt;br&gt;&lt;code&gt;:BundleUpdate&lt;/code&gt;         更新插件&lt;/p&gt;
+&lt;h2 id=&quot;拓展阅读&quot;&gt;&lt;a href=&quot;#拓展阅读&quot; class=&quot;headerlink&quot; title=&quot;拓展阅读&quot;&gt;&lt;/a&gt;拓展阅读&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/VundleVim/Vundle.vim&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Vundle的Github页面&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/1/12/Vimlogo.png&quot; alt=&quot;Vim&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Vim是从vi发展出来的一个文本编辑器。代码补完、编译及错误跳
+    
+    </summary>
+    
+      <category term="计算机魔术" scheme="http://maryjaneinchain.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%AD%94%E6%9C%AF/"/>
+    
+      <category term="Linux" scheme="http://maryjaneinchain.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%AD%94%E6%9C%AF/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://maryjaneinchain.github.io/tags/Linux/"/>
+    
+      <category term="Vim" scheme="http://maryjaneinchain.github.io/tags/Vim/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一些fcitx的使用小技巧</title>
+    <link href="http://maryjaneinchain.github.io/2016/05/15/%E4%B8%80%E4%BA%9Bfcitx%E7%9A%84%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    <id>http://maryjaneinchain.github.io/2016/05/15/一些fcitx的使用小技巧/</id>
+    <published>2016-05-15T07:36:11.000Z</published>
+    <updated>2016-06-07T19:40:45.682Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://avatars0.githubusercontent.com/u/485062?v=3&amp;amp;s=200&quot; alt=&quot;小企鹅输入法&quot; title=&quot;fcitx - 小企鹅输入法&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Fcitx是一个在X Window中使用的输入法框架，在源码包内包含了拼音，五笔字型以及区位、二笔的支持。可以输入UTF-8编码中的文字。可以在Linux、FreeBSD中运行。采用GPL授权。支持XIM、GTK（版本2和3）和QT的输入法模块。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;使用快速输入功能输入常用短语、颜文字&quot;&gt;&lt;a href=&quot;#使用快速输入功能输入常用短语、颜文字&quot; class=&quot;headerlink&quot; title=&quot;使用快速输入功能输入常用短语、颜文字&quot;&gt;&lt;/a&gt;使用快速输入功能输入常用短语、颜文字&lt;/h2&gt;&lt;p&gt;在拼音状态下输入全角的 &lt;code&gt;；&lt;/code&gt; 分号，就能够触发快速输入功能。&lt;/p&gt;
+&lt;p&gt;例如输入 &lt;code&gt;；smile&lt;/code&gt; 就可以很快地打出(・∀・)这个颜文字，但是fcitx自带的预设词条太有限了。这时我们可以到 &lt;code&gt;/usr/share/fcitx/data/quickphrase.d&lt;/code&gt; 或 &lt;code&gt;~/.local/share/fcitx/data/quickphrase.d&lt;/code&gt; 目录下，将&lt;a href=&quot;https://fcitx-im.org/wiki/QuickPhrase_Emoji&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt;的内容复制到已有的或新建的mb文件里，比如我就把所有内容复制到了 &lt;code&gt;emoji.mb&lt;/code&gt; 里面。当然你也完全可以自己定义专属的快速输入。&lt;/p&gt;
+&lt;p&gt;现在让我们重启一下fcitx，就可以方便地利用快速输入功能输入颜文字啦。&lt;/p&gt;
+&lt;h2 id=&quot;使用快捷键搜索Unicode字符&quot;&gt;&lt;a href=&quot;#使用快捷键搜索Unicode字符&quot; class=&quot;headerlink&quot; title=&quot;使用快捷键搜索Unicode字符&quot;&gt;&lt;/a&gt;使用快捷键搜索Unicode字符&lt;/h2&gt;&lt;p&gt;同时按下 &lt;code&gt;Shift + Ctrl + Alt + U&lt;/code&gt; 键，就可以输入关键词对unicode字符进行搜索。&lt;/p&gt;
+&lt;p&gt;在&lt;strong&gt;Arch Linux&lt;/strong&gt;系统下运行以下命令安装包含emoji字符的码表：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ sudo pacman -S fcitx-table-other&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;码表安装完成后，我们就可以通过搜索关键词打出🌞🌚这样的emoji了。&lt;br&gt;例如：按下 &lt;code&gt;Shift + Ctrl + Alt + U&lt;/code&gt; 后，输入 &lt;code&gt;face with tears of joy&lt;/code&gt;，就可以打出😂这个字符了。&lt;/p&gt;
+&lt;p&gt;用这种方法还可以找出很多稀奇⚣古怪的好玩字符哦。&lt;/p&gt;
+&lt;h2 id=&quot;使fcitx在Vim中退出插入模式时自动切换回英文输入&quot;&gt;&lt;a href=&quot;#使fcitx在Vim中退出插入模式时自动切换回英文输入&quot; class=&quot;headerlink&quot; title=&quot;使fcitx在Vim中退出插入模式时自动切换回英文输入&quot;&gt;&lt;/a&gt;使fcitx在Vim中退出插入模式时自动切换回英文输入&lt;/h2&gt;&lt;p&gt;安装&lt;a href=&quot;https://github.com/vim-scripts/fcitx.vim&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;fcitx.vim&lt;/a&gt;这个Vim插件。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://avatars0.githubusercontent.com/u/485062?v=3&amp;amp;s=200&quot; alt=&quot;小企鹅输入法&quot; title=&quot;fcitx - 小企鹅输入法&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Fcitx是一
+    
+    </summary>
+    
+      <category term="计算机魔术" scheme="http://maryjaneinchain.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%AD%94%E6%9C%AF/"/>
+    
+      <category term="Linux" scheme="http://maryjaneinchain.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%AD%94%E6%9C%AF/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://maryjaneinchain.github.io/tags/Linux/"/>
+    
+      <category term="Vim" scheme="http://maryjaneinchain.github.io/tags/Vim/"/>
+    
+      <category term="fcitx" scheme="http://maryjaneinchain.github.io/tags/fcitx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ncurses笔记（1）——ncurses库的介绍与安装</title>
+    <link href="http://maryjaneinchain.github.io/2016/03/01/ncurses%E7%AC%94%E8%AE%B0%EF%BC%881%EF%BC%89%E2%80%94%E2%80%94ncurses%E5%BA%93%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%AE%89%E8%A3%85/"/>
+    <id>http://maryjaneinchain.github.io/2016/03/01/ncurses笔记（1）——ncurses库的介绍与安装/</id>
+    <published>2016-02-29T19:03:13.000Z</published>
+    <updated>2016-06-07T19:40:27.859Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.gnu.org/software/ncurses/ncurses.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ncurses&lt;/a&gt;(new curses)是一套编程库，它提供了一系列的函数以便使用者调用它们去生成基于文本的用户界面。&lt;br&gt;ncurses名字中的&lt;strong&gt;n&lt;/strong&gt;意味着“new”，因为它是&lt;strong&gt;curses&lt;/strong&gt;的自由软件版本。由于AT&amp;amp;T“臭名昭著”的版权政策，人们不得不在后来用ncurses去代替它。&lt;br&gt;ncurses是&lt;a href=&quot;https://en.wikipedia.org/wiki/GNU_Project%20GNU%E8%AE%A1%E5%88%92&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GNU计划&lt;/a&gt;的一部分，但它却是少数几个不使用GNU GPL或LGPL授权的GNU软件之一。&lt;/p&gt;
+&lt;p&gt;其实我们对ncurses本身并不陌生，以下几款大名鼎鼎的软件都用到过ncurses：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;vim&lt;/li&gt;
+&lt;li&gt;emacs&lt;/li&gt;
+&lt;li&gt;lynx&lt;/li&gt;
+&lt;li&gt;screen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;为了制作自己构想了一段时间的Roguelike的游戏，同时作为对&lt;a href=&quot;https://en.wikipedia.org/wiki/The_C_Programming_Language&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《The C Programming Language》&lt;/a&gt;的实践，我开始接触ncurses并在此作笔记。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;h3 id=&quot;Linux&quot;&gt;&lt;a href=&quot;#Linux&quot; class=&quot;headerlink&quot; title=&quot;Linux&quot;&gt;&lt;/a&gt;Linux&lt;/h3&gt;&lt;p&gt;以Debian为例（人生中第一个发行版）&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ sudo apt-get install libncurses5-dev&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;在非Debian发行版中的安装方法以后会来补充&lt;/p&gt;
+&lt;p&gt;安装完毕后，我们写下如下代码：&lt;br&gt;&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//test.c&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;span class=&quot;meta-keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;meta-string&quot;&gt;&amp;lt;string.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;span class=&quot;meta-keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;meta-string&quot;&gt;&amp;lt;ncurses.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; argc,&lt;span class=&quot;keyword&quot;&gt;char&lt;/span&gt;* argv[])&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	initscr();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	raw();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	noecho();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	curs_set(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;char&lt;/span&gt;* c = &lt;span class=&quot;string&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	mvprintw(LINES/&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;,(COLS-&lt;span class=&quot;built_in&quot;&gt;strlen&lt;/span&gt;(c))/&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;,c);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	refresh();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	getch();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	endwin();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;然后使用gcc编译后执行看看效果，不要忘了加&lt;strong&gt;-lncurses&lt;/strong&gt;哦。&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ gcc test.c -o &lt;span class=&quot;built_in&quot;&gt;test&lt;/span&gt; -lncurses&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ ./&lt;span class=&quot;built_in&quot;&gt;test&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;不出意外的话结果如下：&lt;br&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160301165204866&quot; alt=&quot;test&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Windows&quot;&gt;&lt;a href=&quot;#Windows&quot; class=&quot;headerlink&quot; title=&quot;Windows&quot;&gt;&lt;/a&gt;Windows&lt;/h3&gt;&lt;p&gt;ncurses貌似没有提供Windows平台的支持，不过作为代替，我们可以使用&lt;a href=&quot;https://sourceforge.net/projects/pdcurses/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;PDCurses&lt;/a&gt;。虽然最近一次的stable版本已经是08年的事情了，但使用起来暂时没有发现问题，可以对照着网上的ncurses的资料进行学习。&lt;/p&gt;
+&lt;p&gt;如果不想自己编译，可以直接下载pdc34dllw.zip。&lt;br&gt;否则，下载PDCurses-3.4.tar.gz。以下只介绍下载了pdc34dllw.zip的情况。&lt;/p&gt;
+&lt;p&gt;将pdc34dllw.zip解压后，不出意外将得到下面这些文件：&lt;br&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160301023305616&quot; alt=&quot;pdc34dllw.zip&quot;&gt;&lt;br&gt;以MinGW为例，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;将所有.h文件放入MinGW的include目录中&lt;/li&gt;
+&lt;li&gt;将pdcurses.lib文件放入MinGW的lib目录中&lt;/li&gt;
+&lt;li&gt;将pdcurses.dll文件放到你的目标文件的同目录下（推荐）或者X:\Windows\SysWOW64目录中（不推荐）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;配置完毕后，我们写下如下代码：&lt;br&gt;&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//test.c&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;span class=&quot;meta-keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;meta-string&quot;&gt;&amp;lt;string.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;span class=&quot;meta-keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;meta-string&quot;&gt;&amp;lt;curses.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; argc,&lt;span class=&quot;keyword&quot;&gt;char&lt;/span&gt;* argv[])&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	initscr();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	raw();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	noecho();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	curs_set(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;char&lt;/span&gt;* c = &lt;span class=&quot;string&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	mvprintw(LINES/&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;,(COLS-&lt;span class=&quot;built_in&quot;&gt;strlen&lt;/span&gt;(c))/&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;,c);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	refresh();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	getch();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	endwin();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;然后使用gcc编译，不要忘了加&lt;strong&gt;-lpdcurses&lt;/strong&gt;哦。&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;gcc test.c -o test.exe -lpdcurses&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;不出意外的话运行结果如下：&lt;br&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160301025851689&quot; alt=&quot;test.exe&quot;&gt;&lt;br&gt;那么接下来让我们开始动手做些有趣的事情吧。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.gnu.org/software/ncurses/ncurses.html&quot; target=&quot;_bl
+    
+    </summary>
+    
+      <category term="计算机魔术" scheme="http://maryjaneinchain.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%AD%94%E6%9C%AF/"/>
+    
+      <category term="C" scheme="http://maryjaneinchain.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%AD%94%E6%9C%AF/C/"/>
+    
+    
+      <category term="C" scheme="http://maryjaneinchain.github.io/tags/C/"/>
+    
+      <category term="ncurses" scheme="http://maryjaneinchain.github.io/tags/ncurses/"/>
+    
+      <category term="界面" scheme="http://maryjaneinchain.github.io/tags/%E7%95%8C%E9%9D%A2/"/>
+    
+  </entry>
+  
+</feed>
