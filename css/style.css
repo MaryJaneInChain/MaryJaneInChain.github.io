@@ -1409,3 +1409,6 @@ pre .javascript .function {
 .profile h3 {
   text-align: center;
 }
+.profile p {
+  padding: 20px;
+}
