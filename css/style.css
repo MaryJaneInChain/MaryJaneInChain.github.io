@@ -427,7 +427,7 @@ body {
   font-weight: 300;
   letter-spacing: 1px;
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 555px) {
   .main-nav-link {
     display: none;
   }
@@ -438,9 +438,9 @@ body {
 #main-nav-toggle:before {
   content: "\f0c9";
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 555px) {
   #main-nav-toggle {
-    display: block;
+    display: none;
   }
 }
 #sub-nav {
@@ -484,7 +484,7 @@ body {
   opacity: 1;
   right: 0;
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 555px) {
   #search-form-wrap {
     width: 100%;
     right: -100%;
@@ -1002,7 +1002,7 @@ a.article-title:hover {
   -moz-column-gap: 10px;
   column-gap: 10px;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 556px) and (max-width: 767px) {
   .archives {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -1093,7 +1093,7 @@ a.article-title:hover {
 #page-nav .page-number {
   display: inline-block;
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 555px) {
   #page-nav .page-number {
     display: none;
   }
@@ -1295,7 +1295,7 @@ pre .keyword,
 pre .javascript .function {
   color: #c9c;
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 555px) {
   #mobile-nav {
     position: absolute;
     top: 0;
@@ -1306,7 +1306,7 @@ pre .javascript .function {
     border-right: 1px solid #fff;
   }
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 555px) {
   .mobile-nav-link {
     display: block;
     color: #999;
