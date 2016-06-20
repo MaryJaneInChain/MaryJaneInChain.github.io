@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://maryjaneinchain.github.io/"/>
-  <updated>2016-06-11T16:02:10.405Z</updated>
+  <updated>2016-06-20T08:24:26.488Z</updated>
   <id>http://maryjaneinchain.github.io/</id>
   
   <author>
@@ -14,6 +14,47 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记一次排除十字符libudev.so病毒的过程</title>
+    <link href="http://maryjaneinchain.github.io/2016/06/20/%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%8E%92%E9%99%A4%E5%8D%81%E5%AD%97%E7%AC%A6libudev-so%E7%97%85%E6%AF%92%E7%9A%84%E8%BF%87%E7%A8%8B/"/>
+    <id>http://maryjaneinchain.github.io/2016/06/20/记一次排除十字符libudev-so病毒的过程/</id>
+    <published>2016-06-19T17:40:13.000Z</published>
+    <updated>2016-06-20T08:24:26.488Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;When-Who-Where-What-How&quot;&gt;&lt;a href=&quot;#When-Who-Where-What-How&quot; class=&quot;headerlink&quot; title=&quot;When, Who, Where, What, How&quot;&gt;&lt;/a&gt;When, Who, Where, What, How&lt;/h2&gt;&lt;p&gt;在外面喝的不省人事大清早回来一看，发现一台阿里云被人挂马了，这就是人生呐。&lt;/p&gt;
+&lt;p&gt;具体的背景是：从18日开始服务器不停地往外发包，远程登录卡顿非常严重。很明显是被人拿去当肉鸡对别人DDOS了。使用 &lt;code&gt;top&lt;/code&gt; 命令可以看见一个名字由10个随机英文字母组成的程序几乎占用了所有的CPU。再使用 &lt;code&gt;lsof -p 进程号&lt;/code&gt; 发现该程序位于 &lt;code&gt;/usr/bin&lt;/code&gt; 目录下，遂删除，但很快又会有新的10位随机英文字母程序生成并开始执行。&lt;/p&gt;
+&lt;p&gt;检查 &lt;code&gt;/etc/crontab&lt;/code&gt; ，发现有一行定时任务比较可疑：&lt;br&gt;&lt;figure class=&quot;highlight gherkin&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;*&lt;/span&gt;/3 &lt;span class=&quot;keyword&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;*&lt;/span&gt; root /etc/cron.hourly/gcc.sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;意即&lt;strong&gt;每3分钟执行一次 /etc/cron.hourly/gcc.sh&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;好，那咱们再来看看这个&lt;strong&gt;gcc.sh&lt;/strong&gt;的内容：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#!/bin/sh&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/&lt;span class=&quot;built_in&quot;&gt;local&lt;/span&gt;/bin:/usr/&lt;span class=&quot;built_in&quot;&gt;local&lt;/span&gt;/sbin:/usr/X11R6/bin&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; `cat /proc/net/dev|grep :|awk -F: &amp;#123;&lt;span class=&quot;string&quot;&gt;&#39;print $1&#39;&lt;/span&gt;&amp;#125;`; &lt;span class=&quot;keyword&quot;&gt;do&lt;/span&gt; ifconfig &lt;span class=&quot;variable&quot;&gt;$i&lt;/span&gt; up&amp;amp; &lt;span class=&quot;keyword&quot;&gt;done&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;cp /lib/libudev.so /lib/libudev.so.6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/lib/libudev.so.6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;for的那一行没细看，不过应该是強行打开网络设备好往外面发包？&lt;br&gt;总之我们可以看出病毒的脚本程序就是这个 &lt;code&gt;/lib/libudev.so&lt;/code&gt; ，光看名字一般很容易被误认为是一个库，但事实上如果我们使用 &lt;code&gt;file&lt;/code&gt; 命令就可以得知，这个东西实际上是一个可执行程序：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ file libudev.so&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;libudev.so:ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked,&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; GNU/Linux 2.6.9, not stripped&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;然而我们依然不能急着删除它，因为删除之后很快它又会再次生成。&lt;/p&gt;
+&lt;h2 id=&quot;我的解决步骤&quot;&gt;&lt;a href=&quot;#我的解决步骤&quot; class=&quot;headerlink&quot; title=&quot;我的解决步骤&quot;&gt;&lt;/a&gt;我的解决步骤&lt;/h2&gt;&lt;p&gt;首先我们先删除掉 &lt;code&gt;/etc/crontab&lt;/code&gt; 中可疑的定时任务记录，然后使用 &lt;code&gt;chattr&lt;/code&gt; 命令锁定它使它无法被木马程序再次纂改：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ sudo chattr +i /etc/crontab&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ sudo rm &lt;span class=&quot;_&quot;&gt;-f&lt;/span&gt; /etc/cron.hourly/gcc.sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;然后我们先不要杀死木马进程（即使杀死了它也会很快再次生成），而是先让它停下来冷静一下……&lt;br&gt;比如说通过 &lt;code&gt;top&lt;/code&gt; 命令我们知道了木马进程名为&lt;strong&gt;hjksaiwwhm&lt;/strong&gt;，进程号&lt;strong&gt;16998&lt;/strong&gt;。&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ sudo &lt;span class=&quot;built_in&quot;&gt;kill&lt;/span&gt; -stop 16998&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;然后删除 &lt;code&gt;/etc/init.d&lt;/code&gt; 与 &lt;code&gt;/etc/rc*.d&lt;/code&gt; 目录下所有启动木马的脚本：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ sudo find /etc -name &lt;span class=&quot;string&quot;&gt;&quot;*hjksaiwwhm*&quot;&lt;/span&gt; | xargs rm &lt;span class=&quot;_&quot;&gt;-f&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;再删除掉 &lt;code&gt;/usr/bin&lt;/code&gt; 路径内的可疑程序，需要注意的是我们不仅要删除名称为10位随机英文字母的可疑程序，还要注意该目录下其他诸如&lt;strong&gt;top&lt;/strong&gt;,&lt;strong&gt;ls&lt;/strong&gt;一类的常用程序是不是也被纂改过：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ sudo rm &lt;span class=&quot;_&quot;&gt;-f&lt;/span&gt; /usr/bin/hjksaiwwhm&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ sudo ls -lht /usr/bin | head&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;如果被纂改过，请尽快替换为正常的程序。另外据说有时可疑程序不止会出现在 &lt;code&gt;/usr/bin&lt;/code&gt; 中，还会出现在诸如 &lt;code&gt;/bin&lt;/code&gt; 、 &lt;code&gt;/boot&lt;/code&gt; 等关键文件夹中，请一定要再三留意。&lt;/p&gt;
+&lt;p&gt;最后，让我们把这一切划上句号吧：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ sudo rm &lt;span class=&quot;_&quot;&gt;-f&lt;/span&gt; /lib/libudev.so /lib/libudev.so.6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ sudo &lt;span class=&quot;built_in&quot;&gt;kill&lt;/span&gt; -9 16998&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;再见。&lt;/p&gt;
+&lt;p&gt;不出意外的话，木马已经不会再次生成了。&lt;br&gt;以上的过程是我个人排除木马的过程，经查阅发现该木马的表现特征并不是那么固定，所以在参考时请一定要灵活运用。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;When-Who-Where-What-How&quot;&gt;&lt;a href=&quot;#When-Who-Where-What-How&quot; class=&quot;headerlink&quot; title=&quot;When, Who, Where, What, How&quot;&gt;&lt;/a&gt;When, Who, Wh
+    
+    </summary>
+    
+      <category term="计算机魔术" scheme="http://maryjaneinchain.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%AD%94%E6%9C%AF/"/>
+    
+      <category term="Linux" scheme="http://maryjaneinchain.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%AD%94%E6%9C%AF/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://maryjaneinchain.github.io/tags/Linux/"/>
+    
+      <category term="安全" scheme="http://maryjaneinchain.github.io/tags/%E5%AE%89%E5%85%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>言论自由之旗</title>
@@ -102,7 +143,7 @@
     <link href="http://maryjaneinchain.github.io/2016/05/15/%E4%B8%80%E4%BA%9Bfcitx%E7%9A%84%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
     <id>http://maryjaneinchain.github.io/2016/05/15/一些fcitx的使用小技巧/</id>
     <published>2016-05-15T07:36:11.000Z</published>
-    <updated>2016-06-07T19:40:45.682Z</updated>
+    <updated>2016-06-20T08:24:27.721Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://avatars0.githubusercontent.com/u/485062?v=3&amp;amp;s=200&quot; alt=&quot;小企鹅输入法&quot; title=&quot;fcitx - 小企鹅输入法&quot;&gt;&lt;/p&gt;
 &lt;blockquote&gt;

@@ -3,29 +3,21 @@
 <head>
   <meta charset="utf-8">
   
-  <title>一些fcitx的使用小技巧 | Theories of Flight</title>
+  <title>记一次排除十字符libudev.so病毒的过程 | Theories of Flight</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Fcitx是一个在X Window中使用的输入法框架，在源码包内包含了拼音，五笔字型以及区位、二笔的支持。可以输入UTF-8编码中的文字。可以在Linux、FreeBSD中运行。采用GPL授权。支持XIM、GTK（版本2和3）和QT的输入法模块。
-
-使用快速输入功能输入常用短语、颜文字在拼音状态下输入全角的 ； 分号，就能够触发快速输入功能。
-例如输入 ；smile 就可以很快地打出(・∀・)">
+  <meta name="description" content="When, Who, Where, What, How在外面喝的不省人事大清早回来一看，发现一台阿里云被人挂马了，这就是人生呐。
+具体的背景是：从18日开始服务器不停地往外发包，远程登录卡顿非常严重。很明显是被人拿去当肉鸡对别人DDOS了。使用 top 命令可以看见一个名字由10个随机英文字母组成的程序几乎占用了所有的CPU。再使用 lsof -p 进程号 发现该程序位于 /usr/bin 目录下">
 <meta property="og:type" content="article">
-<meta property="og:title" content="一些fcitx的使用小技巧">
-<meta property="og:url" content="http://maryjaneinchain.github.io/2016/05/15/一些fcitx的使用小技巧/index.html">
+<meta property="og:title" content="记一次排除十字符libudev.so病毒的过程">
+<meta property="og:url" content="http://maryjaneinchain.github.io/2016/06/20/记一次排除十字符libudev-so病毒的过程/index.html">
 <meta property="og:site_name" content="Theories of Flight">
-<meta property="og:description" content="Fcitx是一个在X Window中使用的输入法框架，在源码包内包含了拼音，五笔字型以及区位、二笔的支持。可以输入UTF-8编码中的文字。可以在Linux、FreeBSD中运行。采用GPL授权。支持XIM、GTK（版本2和3）和QT的输入法模块。
-
-使用快速输入功能输入常用短语、颜文字在拼音状态下输入全角的 ； 分号，就能够触发快速输入功能。
-例如输入 ；smile 就可以很快地打出(・∀・)">
-<meta property="og:image" content="https://avatars0.githubusercontent.com/u/485062?v=3&s=200">
-<meta property="og:updated_time" content="2016-06-20T08:24:27.721Z">
+<meta property="og:description" content="When, Who, Where, What, How在外面喝的不省人事大清早回来一看，发现一台阿里云被人挂马了，这就是人生呐。
+具体的背景是：从18日开始服务器不停地往外发包，远程登录卡顿非常严重。很明显是被人拿去当肉鸡对别人DDOS了。使用 top 命令可以看见一个名字由10个随机英文字母组成的程序几乎占用了所有的CPU。再使用 lsof -p 进程号 发现该程序位于 /usr/bin 目录下">
+<meta property="og:updated_time" content="2016-06-20T08:24:26.488Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="一些fcitx的使用小技巧">
-<meta name="twitter:description" content="Fcitx是一个在X Window中使用的输入法框架，在源码包内包含了拼音，五笔字型以及区位、二笔的支持。可以输入UTF-8编码中的文字。可以在Linux、FreeBSD中运行。采用GPL授权。支持XIM、GTK（版本2和3）和QT的输入法模块。
-
-使用快速输入功能输入常用短语、颜文字在拼音状态下输入全角的 ； 分号，就能够触发快速输入功能。
-例如输入 ；smile 就可以很快地打出(・∀・)">
-<meta name="twitter:image" content="https://avatars0.githubusercontent.com/u/485062?v=3&s=200">
+<meta name="twitter:title" content="记一次排除十字符libudev.so病毒的过程">
+<meta name="twitter:description" content="When, Who, Where, What, How在外面喝的不省人事大清早回来一看，发现一台阿里云被人挂马了，这就是人生呐。
+具体的背景是：从18日开始服务器不停地往外发包，远程登录卡顿非常严重。很明显是被人拿去当肉鸡对别人DDOS了。使用 top 命令可以看见一个名字由10个随机英文字母组成的程序几乎占用了所有的CPU。再使用 lsof -p 进程号 发现该程序位于 /usr/bin 目录下">
   
     <link rel="alternate" href="/atom.xml" title="Theories of Flight" type="application/atom+xml">
   
@@ -96,10 +88,10 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-一些fcitx的使用小技巧" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-记一次排除十字符libudev-so病毒的过程" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2016/05/15/一些fcitx的使用小技巧/" class="article-date">
-  <time datetime="2016-05-15T07:36:11.000Z" itemprop="datePublished">2016-05-15</time>
+    <a href="/2016/06/20/记一次排除十字符libudev-so病毒的过程/" class="article-date">
+  <time datetime="2016-06-19T17:40:13.000Z" itemprop="datePublished">2016-06-20</time>
 </a>
     
   <div class="article-category">
@@ -114,7 +106,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      一些fcitx的使用小技巧
+      记一次排除十字符libudev.so病毒的过程
     </h1>
   
 
@@ -122,28 +114,31 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="https://avatars0.githubusercontent.com/u/485062?v=3&amp;s=200" alt="小企鹅输入法" title="fcitx - 小企鹅输入法"></p>
-<blockquote>
-<p>Fcitx是一个在X Window中使用的输入法框架，在源码包内包含了拼音，五笔字型以及区位、二笔的支持。可以输入UTF-8编码中的文字。可以在Linux、FreeBSD中运行。采用GPL授权。支持XIM、GTK（版本2和3）和QT的输入法模块。</p>
-</blockquote>
-<h2 id="使用快速输入功能输入常用短语、颜文字"><a href="#使用快速输入功能输入常用短语、颜文字" class="headerlink" title="使用快速输入功能输入常用短语、颜文字"></a>使用快速输入功能输入常用短语、颜文字</h2><p>在拼音状态下输入全角的 <code>；</code> 分号，就能够触发快速输入功能。</p>
-<p>例如输入 <code>；smile</code> 就可以很快地打出(・∀・)这个颜文字，但是fcitx自带的预设词条太有限了。这时我们可以到 <code>/usr/share/fcitx/data/quickphrase.d</code> 或 <code>~/.local/share/fcitx/data/quickphrase.d</code> 目录下，将<a href="https://fcitx-im.org/wiki/QuickPhrase_Emoji" target="_blank" rel="external">这里</a>的内容复制到已有的或新建的mb文件里，比如我就把所有内容复制到了 <code>emoji.mb</code> 里面。当然你也完全可以自己定义专属的快速输入。</p>
-<p>现在让我们重启一下fcitx，就可以方便地利用快速输入功能输入颜文字啦。</p>
-<h2 id="使用快捷键搜索Unicode字符"><a href="#使用快捷键搜索Unicode字符" class="headerlink" title="使用快捷键搜索Unicode字符"></a>使用快捷键搜索Unicode字符</h2><p>同时按下 <code>Shift + Ctrl + Alt + U</code> 键，就可以输入关键词对unicode字符进行搜索。</p>
-<p>在<strong>Arch Linux</strong>系统下运行以下命令安装包含emoji字符的码表：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo pacman -S fcitx-table-other</span><br></pre></td></tr></table></figure></p>
-<p>码表安装完成后，我们就可以通过搜索关键词打出🌞🌚这样的emoji了。<br>例如：按下 <code>Shift + Ctrl + Alt + U</code> 后，输入 <code>face with tears of joy</code>，就可以打出😂这个字符了。</p>
-<p>用这种方法还可以找出很多稀奇⚣古怪的好玩字符哦。</p>
-<h2 id="使fcitx在Vim中退出插入模式时自动切换回英文输入"><a href="#使fcitx在Vim中退出插入模式时自动切换回英文输入" class="headerlink" title="使fcitx在Vim中退出插入模式时自动切换回英文输入"></a>使fcitx在Vim中退出插入模式时自动切换回英文输入</h2><p>安装<a href="https://github.com/vim-scripts/fcitx.vim" target="_blank" rel="external">fcitx.vim</a>这个Vim插件。</p>
+        <h2 id="When-Who-Where-What-How"><a href="#When-Who-Where-What-How" class="headerlink" title="When, Who, Where, What, How"></a>When, Who, Where, What, How</h2><p>在外面喝的不省人事大清早回来一看，发现一台阿里云被人挂马了，这就是人生呐。</p>
+<p>具体的背景是：从18日开始服务器不停地往外发包，远程登录卡顿非常严重。很明显是被人拿去当肉鸡对别人DDOS了。使用 <code>top</code> 命令可以看见一个名字由10个随机英文字母组成的程序几乎占用了所有的CPU。再使用 <code>lsof -p 进程号</code> 发现该程序位于 <code>/usr/bin</code> 目录下，遂删除，但很快又会有新的10位随机英文字母程序生成并开始执行。</p>
+<p>检查 <code>/etc/crontab</code> ，发现有一行定时任务比较可疑：<br><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">*</span>/3 <span class="keyword">*</span> <span class="keyword">*</span> <span class="keyword">*</span> <span class="keyword">*</span> root /etc/cron.hourly/gcc.sh</span><br></pre></td></tr></table></figure></p>
+<p>意即<strong>每3分钟执行一次 /etc/cron.hourly/gcc.sh</strong>。</p>
+<p>好，那咱们再来看看这个<strong>gcc.sh</strong>的内容：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/sh</span></span><br><span class="line">PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/<span class="built_in">local</span>/bin:/usr/<span class="built_in">local</span>/sbin:/usr/X11R6/bin</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> `cat /proc/net/dev|grep :|awk -F: &#123;<span class="string">'print $1'</span>&#125;`; <span class="keyword">do</span> ifconfig <span class="variable">$i</span> up&amp; <span class="keyword">done</span></span><br><span class="line">cp /lib/libudev.so /lib/libudev.so.6</span><br><span class="line">/lib/libudev.so.6</span><br></pre></td></tr></table></figure></p>
+<p>for的那一行没细看，不过应该是強行打开网络设备好往外面发包？<br>总之我们可以看出病毒的脚本程序就是这个 <code>/lib/libudev.so</code> ，光看名字一般很容易被误认为是一个库，但事实上如果我们使用 <code>file</code> 命令就可以得知，这个东西实际上是一个可执行程序：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ file libudev.so</span><br><span class="line">libudev.so:ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked,<span class="keyword">for</span> GNU/Linux 2.6.9, not stripped</span><br></pre></td></tr></table></figure></p>
+<p>然而我们依然不能急着删除它，因为删除之后很快它又会再次生成。</p>
+<h2 id="我的解决步骤"><a href="#我的解决步骤" class="headerlink" title="我的解决步骤"></a>我的解决步骤</h2><p>首先我们先删除掉 <code>/etc/crontab</code> 中可疑的定时任务记录，然后使用 <code>chattr</code> 命令锁定它使它无法被木马程序再次纂改：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo chattr +i /etc/crontab</span><br><span class="line">$ sudo rm <span class="_">-f</span> /etc/cron.hourly/gcc.sh</span><br></pre></td></tr></table></figure></p>
+<p>然后我们先不要杀死木马进程（即使杀死了它也会很快再次生成），而是先让它停下来冷静一下……<br>比如说通过 <code>top</code> 命令我们知道了木马进程名为<strong>hjksaiwwhm</strong>，进程号<strong>16998</strong>。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo <span class="built_in">kill</span> -stop 16998</span><br></pre></td></tr></table></figure></p>
+<p>然后删除 <code>/etc/init.d</code> 与 <code>/etc/rc*.d</code> 目录下所有启动木马的脚本：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo find /etc -name <span class="string">"*hjksaiwwhm*"</span> | xargs rm <span class="_">-f</span></span><br></pre></td></tr></table></figure></p>
+<p>再删除掉 <code>/usr/bin</code> 路径内的可疑程序，需要注意的是我们不仅要删除名称为10位随机英文字母的可疑程序，还要注意该目录下其他诸如<strong>top</strong>,<strong>ls</strong>一类的常用程序是不是也被纂改过：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo rm <span class="_">-f</span> /usr/bin/hjksaiwwhm</span><br><span class="line">$ sudo ls -lht /usr/bin | head</span><br></pre></td></tr></table></figure></p>
+<p>如果被纂改过，请尽快替换为正常的程序。另外据说有时可疑程序不止会出现在 <code>/usr/bin</code> 中，还会出现在诸如 <code>/bin</code> 、 <code>/boot</code> 等关键文件夹中，请一定要再三留意。</p>
+<p>最后，让我们把这一切划上句号吧：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo rm <span class="_">-f</span> /lib/libudev.so /lib/libudev.so.6</span><br><span class="line">$ sudo <span class="built_in">kill</span> -9 16998</span><br></pre></td></tr></table></figure></p>
+<p>再见。</p>
+<p>不出意外的话，木马已经不会再次生成了。<br>以上的过程是我个人排除木马的过程，经查阅发现该木马的表现特征并不是那么固定，所以在参考时请一定要灵活运用。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://maryjaneinchain.github.io/2016/05/15/一些fcitx的使用小技巧/" data-id="cipnrb5y10000his6mrd6cjzc" class="article-share-link">分享</a>
+      <a data-url="http://maryjaneinchain.github.io/2016/06/20/记一次排除十字符libudev-so病毒的过程/" data-id="cipnrb5yr0005his6ublvm4gh" class="article-share-link">分享</a>
       
-        <a href="http://maryjaneinchain.github.io/2016/05/15/一些fcitx的使用小技巧/#disqus_thread" class="article-comment-link">留言</a>
+        <a href="http://maryjaneinchain.github.io/2016/06/20/记一次排除十字符libudev-so病毒的过程/#disqus_thread" class="article-comment-link">留言</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Vim/">Vim</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/fcitx/">fcitx</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/安全/">安全</a></li></ul>
 
     </footer>
   </div>
@@ -151,19 +146,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2016/05/18/使用Vundle管理你的Vim插件/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">下一篇</strong>
-      <div class="article-nav-title">
-        
-          使用Vundle管理你的Vim插件
-        
-      </div>
-    </a>
   
-  
-    <a href="/2016/03/01/ncurses笔记（1）——ncurses库的介绍与安装/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2016/06/03/言论自由之旗/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">上一篇</strong>
-      <div class="article-nav-title">ncurses笔记（1）——ncurses库的介绍与安装</div>
+      <div class="article-nav-title">言论自由之旗</div>
     </a>
   
 </nav>
@@ -303,7 +289,7 @@
 <script>
   var disqus_shortname = 'maryjaneinchain';
   
-  var disqus_url = 'http://maryjaneinchain.github.io/2016/05/15/一些fcitx的使用小技巧/';
+  var disqus_url = 'http://maryjaneinchain.github.io/2016/06/20/记一次排除十字符libudev-so病毒的过程/';
   
   (function(){
     var dsq = document.createElement('script');
